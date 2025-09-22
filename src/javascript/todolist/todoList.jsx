@@ -71,6 +71,7 @@ fecthAllTodo();
 
 
 const btnDelete = document.querySelectorAll(".btnDelete");
+console.log(btnDelete);
 if (btnDelete) {
     btnDelete.forEach((button, index) => {
         button.addEventListener('click', () => {
